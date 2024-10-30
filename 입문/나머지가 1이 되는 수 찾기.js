@@ -2,7 +2,6 @@
 // 답이 항상 존재함은 증명될 수 있습니다.
 
 // solution
-
 const solution = (n) => {
   for (let i = 0; i < n; i++) {
     if (n % i === 1) return i;
