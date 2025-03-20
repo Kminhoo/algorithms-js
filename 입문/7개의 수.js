@@ -17,3 +17,9 @@ const solution = (array) => {
 
   return count;
 };
+
+// 더 나은 해결책
+// 문자열로 합친후 7로 분리하여 배열을 만들고 배열의 길이 -1
+const solution1 = (array) => {
+  return array.join("").split("7").length - 1;
+};
